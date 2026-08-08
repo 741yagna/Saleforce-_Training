@@ -58,12 +58,9 @@ The application uses a Salesforce `Product__c` object to store product informati
 
 Only products satisfying the following conditions are displayed:
 
-```text
-Available__c = true
-Stock_Quantity__c > 0
 
 
-# ARCHITECTURE
+## ARCHITECTURE
 
                          SALESFORCE
                              │
@@ -104,7 +101,8 @@ Stock_Quantity__c > 0
           ▼              ▼
     View Details     Add to Cart
 
-## DATA FLOW ##
+
+## DATA FLOW 
 
 Product__c
      │
